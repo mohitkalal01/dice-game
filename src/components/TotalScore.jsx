@@ -1,25 +1,16 @@
-import styled from "styled-components";
+import { motion } from 'framer-motion';
 
-const TotalScore = ({ score }) => {
+function TotalScore({ score }) {
   return (
-    <ScoreContainer>
-      <h1>{score}</h1>
-      <p>Total Score</p>
-    </ScoreContainer>
+    <motion.div
+      className="text-center"
+      animate={{ scale: [1, 1.1, 1] }}
+      transition={{ duration: 0.3 }}
+    >
+      <h1 className="text-6xl md:text-8xl font-bold text-green-600">{score}</h1>
+      <p className="text-xl md:text-2xl font-semibold text-gray-700">Total Score</p>
+    </motion.div>
   );
-};
+}
 
 export default TotalScore;
-
-const ScoreContainer = styled.div`
-  max-width: 200px;
-  text-align: center;
-  h1 {
-    font-size: 100px;
-    line-height: 100px;
-  }
-  p {
-    font-size: 24px;
-    font-weight: 500px;
-  }
-`;

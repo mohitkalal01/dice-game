@@ -1,35 +1,22 @@
-import styled from "styled-components";
+import { motion } from 'framer-motion';
 
-const Rules = () => {
+function Rules() {
   return (
-    <RulesContainer>
-      <h2>How to play dice game</h2>
-      <div className="text">
+    <motion.div
+      className="max-w-3xl mx-auto bg-pink-50 p-6 rounded-lg mt-10"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-800">How to play dice game</h2>
+      <div className="mt-4 text-gray-700 text-base md:text-lg">
         <p>Select any number</p>
         <p>Click on dice image</p>
-        <p>
-          after click on dice if selected number is equal to dice number you
-          will get same point as dice{" "}
-        </p>
-        <p>if you get wrong guess then 2 point will be dedcuted </p>
+        <p>After clicking on the dice, if the selected number matches the dice number, you will earn points equal to the dice number.</p>
+        <p>If your guess is wrong, 2 points will be deducted.</p>
       </div>
-    </RulesContainer>
+    </motion.div>
   );
-};
+}
 
 export default Rules;
-
-const RulesContainer = styled.div`
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #fbf1f1;
-  padding: 20px;
-  margin-top: 40px;
-  border-radius: 10px;
-  h2 {
-    font-size: 24px;
-  }
-  .text {
-    margin-top: 24px;
-  }
-`;

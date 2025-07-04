@@ -1,31 +1,24 @@
-import styled from "styled-components";
+import { motion } from 'framer-motion';
 
-const RoleDice = ({ roleDice, currentDice }) => {
+function RoleDice({ roleDice, currentDice }) {
   return (
-    <DiceContainer>
-      <div className="dice" onClick={roleDice}>
-        <img src={`/images/dice_${currentDice}.jpg`} alt="dice 1" />
-      </div>
-      <p>Click on Dice to roll</p>
-    </DiceContainer>
+    <div className="flex flex-col items-center mt-12">
+      <motion.div
+        className="cursor-pointer"
+        onClick={roleDice}
+        whileTap={{ rotate: 360, transition: { duration: 0.5 } }}
+      >
+        <img
+          src={`/images/dice_${currentDice}.jpg`}
+          alt={`Dice showing ${currentDice}`}
+          className="w-32 md:w-48 lg:w-56 object-contain"
+        />
+      </motion.div>
+      <p className="text-xl md:text-2xl font-semibold text-gray-700 mt-4">
+        Click on Dice to roll
+      </p>
+    </div>
   );
-};
+}
 
 export default RoleDice;
-
-const DiceContainer = styled.div`
-  margin-top: 48px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-img{
-    width: 200px;
-}
-  .dice {
-    cursor: pointer;
-  }
-
-  p {
-    font-size: 24px;
-  }
-`;
