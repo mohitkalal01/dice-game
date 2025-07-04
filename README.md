@@ -66,7 +66,7 @@ Front-End Developer | React & Tailwind Enthusiast
 🎓 B.Sc. – *P.D.U. Shekhawati University, Rajasthan*
 
 ### 🔗 Links
-- 🌐 [Portfolio Website](https://mohitkalal.netlify.app/)
+- 🌐 [Portfolio Website](https://mohitkalal.vercel.app/)
 - 💼 [LinkedIn](https://www.linkedin.com/in/%20mohit-kalal-389521217)
 - 🧑‍💻 [GitHub](https://github.com/mohitkalal01)
 - 📫 [Email](mailto:kalalmohit003@gmail.com)
