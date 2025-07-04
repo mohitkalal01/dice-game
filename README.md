@@ -1,43 +1,95 @@
-Dice Game 🎲
-A fun and responsive dice game built with React and Tailwind CSS. Roll the dice and track your score on any device! 🚀 Play it live at mohit-dicegame.vercel.app. 😄
-Features 🌟
 
-Roll dice with one click 🎯
-Real-time score updates 📊
-Responsive for mobile, tablet, and desktop 📱💻
-Clean and fun interface 😊
+# 🎲 Dice Game
 
-Tech Stack 🛠️
+A fun, interactive, and fully responsive dice game built with **React** and **Tailwind CSS**. Roll the dice, track your score, and enjoy smooth animations across devices!
 
-React ⚛️
-Tailwind CSS 🎨
-JavaScript 🌐
-Vite ⚡
+🔗 **Live Demo:** [Play Now](https://mohit-dicegame.vercel.app)  
+📂 **Repository:** [GitHub - Dice Game](https://github.com/mohitkalal01/Dice-Game-React.js-)
 
-Installation 🔧
+---
 
-Clone the repo:git clone https://github.com/mohitkalal01/dice-game.git
+## ✨ Features
+
+- 🎯 One-click dice roll interaction  
+- 📊 Real-time score tracking and updates  
+- 📱 Fully responsive for mobile, tablet, and desktop  
+- 🎨 Clean, modern, and engaging UI  
+- ⚡ Smooth performance with Vite bundler  
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js** – Component-based front-end development  
+- **Tailwind CSS** – Utility-first styling  
+- **JavaScript** – Game logic and interactivity  
+- **Vite** – Fast development server and bundler  
+
+---
+
+## 🚀 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/mohitkalal01/dice-game.git
 cd dice-game
 
+# Install dependencies
+npm install
 
-Install dependencies:npm install
+# Run the development server
+npm run dev
+```
+
+> Open your browser and go to `http://localhost:5173`
+
+---
+
+## 🎮 How to Play
+
+1. Click the **"Roll Dice"** button.
+2. Watch the dice animate and display a random value.
+3. The score updates automatically based on the roll.
+4. Works seamlessly across all screen sizes!
+
+---
 
 
-Run the dev server:npm run dev
+## 👨‍💻 About the Developer
 
+**Mohit Kalal**  
+Front-End Developer | React & Tailwind Enthusiast  
+📍 Udaipur, India  
 
+💼 **React.js Developer Intern** – *WebSenor*  
+📚 MCA – *Bharati Vidyapeeth Deemed University, Pune*  
+🎓 B.Sc. – *P.D.U. Shekhawati University, Rajasthan*
 
-Usage 🎮
+### 🔗 Links
+- 🌐 [Portfolio Website](https://mohitkalal.netlify.app/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/%20mohit-kalal-389521217)
+- 🧑‍💻 [GitHub](https://github.com/mohitkalal01)
+- 📫 [Email](mailto:kalalmohit003@gmail.com)
 
-Open the app in your browser (usually http://localhost:5173) 🌐
-Click "Roll Dice" to roll and see results 🎲
-Scores update instantly 📈
-Play on any device! 📱💻
+---
 
-Contributing 🤝
-Contributions are welcome! Fork the repo, make changes, and submit a pull request. 🙌
-Contact 📫
-Created by Mohit Kalal:
+## 🧠 Skills Highlighted
 
-GitHub: mohitkalal01 😎
-Email: [kalalmohit003@gmail.com] ✉️
+- Responsive Web Design
+- React.js Components & Hooks
+- Tailwind CSS Utility Classes
+- State Management and Event Handling
+- Game Logic Implementation
+- API Integration & Debugging
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Fork the repository, create your feature branch, commit your changes, and open a pull request.
+
+```bash
+# Fork -> Clone -> Make Changes -> PR 🚀
+```
+
