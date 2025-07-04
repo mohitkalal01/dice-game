@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import StartGame from './components/StartGame';
-import GamePlay from './components/GamePlay';
+import GamePlay from './components/Gameplay';
 
 function App() {
   const [isGameStarted, setIsGameStarted] = useState(false);
